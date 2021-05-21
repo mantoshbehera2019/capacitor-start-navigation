@@ -1,4 +1,4 @@
-# capacitor-start-navigation [![npm version](https://badge.fury.io/js/%40proteansoftware%2Fcapacitor-start-navigation.svg)](https://badge.fury.io/js/%40proteansoftware%2Fcapacitor-start-navigation)
+# capacitor-start-navigation [npm i https://github.com/mantoshbehera2019/capacitor-start-navigation.git --save] 
 
 Capacitor plugin that allows your app to start native navigation
 
@@ -34,28 +34,6 @@ StartNavigationPlugin.launchMapsApp({
 });
 
 ```
-
-## iOS setup
-
-- `sudo gem install cocoapods` _(once a time)_
-- `ionic start my-cap-app --capacitor`
-- `cd my-cap-app`
-- `mkdir www && touch www/index.html`
-- `npx cap add ios`
-- `npm install --save @proteansoftware/capacitor-start-navigation`
-- `npx cap sync ios` _(always do sync after a plugin install)_
-- `npx cap open ios`
-
-## Android setup
-
-- `ionic start my-cap-app --capacitor`
-- `cd my-cap-app`
-- `mkdir www && touch www/index.html`
-- `npx cap add android`
-- `npm install --save @proteansoftware/capacitor-start-navigation`
-- `npx cap sync android` _(always do sync after a plugin install)_
-- `npx cap open android`
-- `[extra step]` in android case we need to tell Capacitor to initialise the plugin:
 
 > on your `MainActivity.java` file add `import com.servicesight.capacitor.startnavigation.StartNavigationPlugin;
 ` and then inside the init callback `add(StartNavigationPlugin.class);`
