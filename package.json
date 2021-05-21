@@ -1,6 +1,6 @@
 {
   "name": "@proteansoftware/capacitor-start-navigation",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "description": "Starts navigation in the native maps application",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -10,17 +10,17 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "Ashley Medway",
+  "author": "Mantosh Behera",
   "license": "MIT",
   "dependencies": {
-    "@capacitor/android": "^2.4.2",
-    "@capacitor/core": "^2.4.2",
-    "@capacitor/ios": "^2.4.2"
+    "@capacitor/android": "latest",
+    "@capacitor/core": "^3.0.0",
+    "@capacitor/ios": "latest"
   },
   "devDependencies": {
-    "mkdirp": "^0.5.5",
-    "rimraf": "^3.0.2",
-    "typescript": "^3.9.7"
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.0",
+    "typescript": "^4.0.5",
   },
   "files": [
     "dist/",
@@ -43,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ProteanSoftware/capacitor-start-navigation"
+    "url": "https://github.com/mantoshbehera2019/capacitor-start-navigation"
   },
   "bugs": {
-    "url": "https://github.com/ProteanSoftware/capacitor-start-navigation/issues"
+    "url": "https://github.com/mantoshbehera2019/capacitor-start-navigation/issues"
   }
 }
