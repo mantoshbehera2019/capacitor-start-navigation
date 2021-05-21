@@ -11,7 +11,7 @@ export interface StartNavigationPluginPlugin {
    * @returns Promise 
    */
   launchMapsApp(options: { 
-    latitude: string,
+    latitude: number,
     longitude: number,
     name?: string
   }): Promise<void>;
