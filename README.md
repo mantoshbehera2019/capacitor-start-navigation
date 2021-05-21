@@ -1,4 +1,4 @@
-# capacitor-start-navigation [npm i https://github.com/mantoshbehera2019/capacitor-start-navigation.git --save] 
+npm i https://github.com/mantoshbehera2019/capacitor-start-navigation.git --save
 
 Capacitor plugin that allows your app to start native navigation
 
